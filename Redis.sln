@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C9EAC835-CA33-470B-83A4-EDC5966A9362}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redis.Cache", "Redis.Cache\Redis.Cache.csproj", "{A0FEAD20-0376-4421-8516-09D149BE6E92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redis.Stream", "Redis.Stream\Redis.Stream.csproj", "{19FE88E7-0528-44E3-AA01-E1C595209A44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redis.PubSub", "Redis.PubSub\Redis.PubSub.csproj", "{E3941F55-A62D-4327-8ABB-31B836CF741D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0FEAD20-0376-4421-8516-09D149BE6E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0FEAD20-0376-4421-8516-09D149BE6E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0FEAD20-0376-4421-8516-09D149BE6E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0FEAD20-0376-4421-8516-09D149BE6E92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19FE88E7-0528-44E3-AA01-E1C595209A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19FE88E7-0528-44E3-AA01-E1C595209A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19FE88E7-0528-44E3-AA01-E1C595209A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19FE88E7-0528-44E3-AA01-E1C595209A44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3941F55-A62D-4327-8ABB-31B836CF741D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3941F55-A62D-4327-8ABB-31B836CF741D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3941F55-A62D-4327-8ABB-31B836CF741D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3941F55-A62D-4327-8ABB-31B836CF741D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F528C2F-7835-4029-83E4-837DD036F4EE}
+	EndGlobalSection
+EndGlobal
